@@ -1,0 +1,23 @@
+{
+  "name": "ayn-rand-tg-bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/google-images": "^2.1.4",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "cron": "^3.1.6",
+    "google-images": "^2.1.0",
+    "grammy": "^1.20.3",
+    "i": "^0.3.7",
+    "node-html-parser": "^6.1.12",
+    "npm": "^10.3.0"
+  }
+}
